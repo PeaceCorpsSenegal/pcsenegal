@@ -1,0 +1,24 @@
+div#container {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #edd280;
+}
+div#col_left {
+	width: 160px;
+	float: left;
+}
+div#col_right {
+	width: 640px;
+	float: left;
+	background-color: white;
+	padding: 0px;
+}
+div#footer {
+	clear: both;
+}
+div#google_search {
+	margin: 0 auto;
+}
+form {
+	display: inline;
+}

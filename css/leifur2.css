@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+blockquote {
+font-size: 12px;
+}
+
+body {
+background-color:#999999;
+background-image: url(../img/wax_background.jpg);
+font-family: Verdana, Arial, sans-serif;
+font-size: 12px;
+}
+img#logo_banner, div#container {
+	border-top-left-radius: 58px 57px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 58px 57px;
+	-moz-border-radius-topright:10px; /* Firefox */
+	-webkit-border-top-left-radius: 58px 57px;
+	-webkit-border-top-right-radius:10px; /* Safari and chrome */
+	-khtml-border-radius-topleft: 58px 57px;
+	-khtml-border-radius-topright:10px; /* Linux browsers */
+	behavior:url("http://pcsenegal.org/css/border-radius.htc); /* IE */
+}
+img#logo_footer, div#container {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+p {
+font-size: 12px;
+}
+p img.floatright, p img.floatleft {
+	margin-right: 10px;
+}
+div.fancy_pop {
+	padding: 20px;
+	width: 400px;
+}
+div.fancy_pop p {
+	margin: 10px;
+}
+div#main_container {
+}
+div.youtube {
+	position: relative;
+	z-index: 0;
+}
+span#dynamically_loaded p {
+	margin-right: 15px;
+	margin-left: 20px;
+	text-align:justify;
+	clear: both;
+	margin-top:10px;
+}
+
+span#dynamically_loaded h1, span#dynamically_loaded h2, span#dynamically_loaded h3, span#dynamically_loaded ol, span#dynamically_loaded ul {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+form input[type='text'] {
+	background-color: #fff6de;
+	border-width: 1px 0 0 1px;
+	border-color: gray;
+	border-style: solid;
+	width: 148px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+form input[type='submit'] {
+	width: 148px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+form input {
+	border-radius: 2px;
+}
+h1 {
+font-size: 25px;
+background-color: #edd280;
+padding: 10px;
+border-bottom: 2px solid gray;
+margin-top: 0px;
+}
+
+h3	{
+font-size:18px;
+text-decoration: none;
+margin-bottom: 5px;
+background-color: #ffefc2;
+padding: 7px 8px 7px 10px;
+border-bottom: 2px solid #edd280;
+}
+
+
+h1, h3 {
+//position: relative;
+//right: -10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+color: #c33;
+}
+
+li {
+font-size:12px;
+}
+
+
+
+h2 {
+font-size: 20px;
+margin-bottom: 0px;
+}
+
+
+
+#bread {
+	color: #666;
+	background-color: #fff;
+	padding: 3px;
+	margin-bottom: 25px;
+	}
+
+#bread ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	border: none;
+	} 
+
+#bread ul li {
+	color: #666;
+	text-decoration: none;
+	margin-left: 0;
+	padding-left: 2px;
+	border: none;
+	list-style: none;
+	display: inline;
+	}
+	
+#bread a {
+	color: #666;
+	text-decoration: none;
+}
+
+#bread a:hover {
+	color: #009
+}
+
+#floatright {
+float: right;
+margin: 5px 5px 5px 5px;
+}
+/* this is incorrect. should be a class, not an id, but i'm leaving it in for backwards compatibility. */
+#floatleft {
+float: left;
+margin: 0px 5px 5px 0px;
+}
+.floatleft {
+	float: left;
+	//margin: 0px 5px 5px 0;
+}
+.floatright {
+	float: right;
+	//margin: 5px;
+}
